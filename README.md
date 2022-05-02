@@ -2,7 +2,7 @@
 #### Contacts Frontend 02/04/2022
 #### By Eric Wafula
 ## Description
-This is a simple web application that consumes the contact application API
+This is a simple Reactjs web application that consumes the contact application API
 
 Links to the contact application API:
 https://github.com/ericwafula/contacts

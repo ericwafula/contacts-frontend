@@ -9,6 +9,10 @@ module.exports = {
         color_Medium_Aquamarine_LG: "#54DCAA",
         color_Lucky_Point_LB: "#1E2B5F",
       },
+      backgroundImage: {
+        desktop: "url('/src/assets/background.png')",
+        mobile: "url('/src/assets/mobile-bg.png')",
+      },
     },
   },
   plugins: [],

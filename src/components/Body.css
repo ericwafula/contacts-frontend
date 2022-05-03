@@ -1,0 +1,31 @@
+.el {
+    background: ...;
+    border-radius: 70px;
+}
+
+@supports (mask-image: paint(smooth-corners)) {
+    .el.is-loaded {
+        border-radius: 0;
+        mask-image: paint(smooth-corners);
+        --smooth-corners: 4;
+    }
+}
+
+body {
+    background: #0C183C;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: #0C183C;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #E971AC;
+    border-radius: 100vw;
+}

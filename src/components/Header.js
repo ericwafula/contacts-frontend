@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 function Header() {
-  return (
+  return (  
     <>
       {/* desktop */}
       <div className="hidden lg:block">
